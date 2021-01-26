@@ -12,6 +12,6 @@ public class Car extends Vehicles {
     @Override
     public String toString() {
         return "Brand: " + super.getBrand() + "\nYear: " + super.getYear() + "\nColor: " + super.getColor() +
-                "\nSpeed: " + super.getColor() + "\nEngine State: " + super.getEngineState();
+                "\nSpeed: " + super.getSpeed() + "\nEngine State: " + super.getEngineState();
     }
 }

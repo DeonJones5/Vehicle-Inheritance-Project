@@ -14,6 +14,6 @@ public class Plane extends Vehicles{
     @Override
     public String toString() {
         return "Brand: " + super.getBrand() + "\nYear: " + super.getYear() + "\nColor: " + super.getColor() +
-                "\nSpeed: " + super.getColor() + "\nWingSpan: " + this.wingSpan + "\nEngine State: " + super.getEngineState();
+                "\nSpeed: " + super.getSpeed() + "\nWingSpan: " + this.wingSpan + "\nEngine State: " + super.getEngineState();
     }
 }
